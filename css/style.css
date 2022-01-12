@@ -1,0 +1,219 @@
+.party{
+height: 100vh;
+background-image: url(../images/events-heavenly-header.jpg);
+background-position: center center;
+background-size: cover;
+position: relative;
+}
+.cover{
+
+background-color: rgba(214, 46, 51, 0.6);
+position: absolute;
+top:0%;
+left:0%;
+right:0%;
+bottom: 0%;
+
+}
+.cover h2{
+
+color: white;
+text-align: center;
+margin-top: 200px;
+font-size: 60px;
+font-family: inherit;
+font-weight: 500;
+line-height: 1.1;
+
+}
+.cover p{
+text-align: center;
+color: white;
+margin: 0px 0px 10px;
+font-size: 16px;
+
+
+}
+
+.fas{
+color: white;
+position: relative;
+left: 80%;
+top: 5%;
+font-size: 25px;
+line-height: 1.42857;
+
+
+}
+.nav{
+position: fixed;
+top: 0%;
+left: -250px;
+z-index: 999;
+background-color: rgb(65, 70, 88);
+height: 100%;
+width: 250px;
+cursor: pointer;
+
+
+}
+.open{
+
+    left: 10px;
+}
+
+
+.nav ul{
+
+margin-top: 50px;
+padding-left: 10px;
+padding-top: 30px;
+}
+.nav li{
+list-style: none;
+padding: 15px ;
+color: white;
+font-size: 25px;
+
+}
+
+.nav  li:hover{
+
+
+    color: rgb(80, 21, 23);
+}
+
+.nav .close:hover{
+
+
+    color: rgb(80, 21, 23);
+}
+
+.dashbord{
+
+    width: 24%;
+    height: 100%;
+    
+} 
+
+
+
+#singer h5{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+#singer p{
+    padding: 10px;
+    margin-bottom: 0px;
+    background-color: #ccc;
+    display:none;
+    font-size: 16px;
+}
+
+
+
+#Duration{
+background-image: url(../images/invitation-2508607__340.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100% 100%;
+height: 330px;
+position: relative;
+}
+#Duration::before{
+
+position: absolute;
+content: "";
+top: 0%;
+left: 0%;
+width: 100%;
+height: 100%;
+background-color: rgba(214, 46, 51, 0.6);
+
+}
+#counter{
+position: relative;
+z-index: 99;
+ margin-top: 105px;
+color: white;
+border: white 1px solid;
+padding: 50px;
+
+
+}
+
+
+
+
+#contact p{
+
+    color: rgb(119, 119, 119);
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+#contact h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+#contact h3{
+    color: rgb(68, 68, 68);
+    font-size: 18px;
+    font-weight: bold;
+}
+.icon i{
+
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+
+}
+
+.input-lg{
+
+    margin-bottom: 20px;
+    border-radius: 0px;
+    padding: 10px 16px;
+
+
+}
+.btn{
+
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+.con-social i{
+
+    margin-top: 60px;
+    color: rgb(119, 119, 119);
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(153, 153, 153);
+    border-image: initial;
+
+    font-size: 16px;
+}
+
+
+.con-social i:hover{
+
+    background-color: crimson;
+    color: white;
+}
